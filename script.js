@@ -1,12 +1,12 @@
-let usuario; 
+let usuario = 10
 let numero;
 let suma;
 
 numero = Number (prompt(`agregar numero`));
-usuario = Number (prompt(`digite numero 10`));
+usuario 
 
 suma = numero + usuario
 
-console.log(`resultado imprimido de ${numero} + ${usuario} es ${suma}`);
+console.log((`el usuario a digitado numero ${numero} + 10 la suma es ${suma}`));
 
-document.write(`su resultado de ${numero} + ${usuario} es ${suma}`);
+document.write(`el usuario a digitado numero ${numero} + 10 la suma es ${suma}, ver resultado en consola`);
